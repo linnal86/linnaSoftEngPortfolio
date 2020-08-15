@@ -55,22 +55,3 @@ lightBtn.addEventListener('click', ()=>{
     }
 })
 
-
-
-
-let socailMediaDiv = document.querySelector('.socialMedia')
-
-let socialMediaArray = ["linkedin.svg", 'instagram.svg', 'facebook.svg', 'email.svg', 'github.svg']
-
-for(let i = 0; i<socialMediaArray.length; i++){
-
-    // let newDiv = document.createElement('div')
-    // newDiv.classList.add('col')
-    // newDiv.textContent = socialMediaArray[i]
-    let mediaIcon = new Image();
-    mediaIcon.src = 'images/'+socialMediaArray[i];
-    mediaIcon.style.height = "50px"
-    // newDiv.appendChild(mediaIcon)
-    
-    socailMediaDiv.appendChild(mediaIcon)
-}

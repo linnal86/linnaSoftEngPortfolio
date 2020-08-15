@@ -97,9 +97,14 @@ svg{
 }
 
 .socialMedia img{
+    height: 50px;
     float: center;
     padding: 5px;
     border-radius: 50%;
+}
+
+.socialMedia img:hover{
+    opacity: 50%;
 }
 
 .grid2{
